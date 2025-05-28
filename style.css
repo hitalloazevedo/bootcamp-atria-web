@@ -294,7 +294,7 @@ button {
     left: 0;
     width: 870px;
     height: 820px;
-    background: url('Esquerda.png') no-repeat bottom left;
+    background: url('assets/Esquerda.png') no-repeat bottom left;
     background-size: contain;
     z-index: 0;
     pointer-events: none;
@@ -308,7 +308,7 @@ button {
     right: 0;
     width: 780px;
     height: 780px;
-    background: url('Logo2.png') no-repeat bottom right;
+    background: url('assets/Logo2.png') no-repeat bottom right;
     background-size: contain;
     z-index: 0;
     pointer-events: none;
@@ -355,7 +355,9 @@ button {
 /* 3. beatriz -> Benefícios */
 
 .fundo {
+    height: 100vh;
     background-color: #794887;
+    padding: 0 0 50px;
 }
 
 .titulo_b {
