@@ -107,11 +107,9 @@
 
 .titulo {
    margin-top: 80px;
-   margin-bottom: 55px;
-   font-size: 2rem;
    margin-bottom: 30px;
+   font-size: 2rem;
    font-weight: bold;
-
 }
 
 .cartoes {
@@ -153,5 +151,39 @@
 /*perguntas frequentes*/
 
 .perguntas {
-   font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    background-color: #734281; 
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.titulo2 {
+   color: white;
+   margin-top: 30px;
+   margin-bottom: 30px;
+   font-size: 2rem;
+   font-weight: bold;
+}
+
+
+.lista {
+  list-style: none;
+  padding: 0;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.lista_li {
+  background-color: white;
+  color: hsl(0, 0%, 0%);
+  margin-bottom: 40px;
+  padding: 15px 20px;
+  border-radius: 12px;
+  font-weight: bold;
+  font-size: 1.12rem;
+  cursor: pointer;
+}
+
+.lista_li:hover {
+  background-color: #edc3ff;
 }
