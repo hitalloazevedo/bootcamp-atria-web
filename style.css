@@ -231,6 +231,77 @@
 
 /* 3. beatriz -> Benefícios */
 
+.fundo{
+  background-color: #794887;  
+}
+
+.titulo_b{
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    text-align: right;    
+    margin-top: 80px;   
+    margin-right: 100px;      
+    margin-bottom: 30px;
+}
+
+.caixas{
+  position: relative;
+  background-color: #ffffff;
+  width: 385px;        
+  height: 190px;       
+  padding: 10px;      
+  border-radius: 19px;
+  align-items: center;
+  overflow: visible;
+  justify-content: center;
+}
+
+.caixas > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  text-align: center;      
+  min-height: 200px;       
+  padding-bottom: 60px;    
+}
+
+h3{
+    font-size: 20;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+p{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.caixas .img{
+  position: absolute;
+  bottom: 15px; 
+  right: 15px;   
+  width: 60px;  
+  height: auto;
+  bottom: -15px;  
+  right: -15px;   
+}
+
+.main_b{
+  display: flex;
+  flex-wrap: wrap;      
+  gap: 86px 91px;      
+  justify-content: center;
+}
+
+.caixas .img img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
 
 /* 4. joao -> Vídeo + Passo a passo (fotos) */
 
@@ -359,13 +430,20 @@
 }
 
 .c3 {
-   margin-top: 36px;
+   margin-top: 34px;
 }
 
 .c4 {
-   margin-top: 36px;
+   margin-top: 50px;
 }
 
+.c5 {
+   margin-top: 19px;
+}
+
+.c6{
+    margin-top: 19px;
+}
 /*perguntas frequentes*/
 
 .perguntas {
