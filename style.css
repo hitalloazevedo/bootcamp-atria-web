@@ -1,3 +1,10 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
 /* 1. vitor -> Header + footer */
 
 
@@ -8,6 +15,81 @@
 
 
 /* 4. joao -> Vídeo + Passo a passo (fotos) */
+
+
+#section4 {
+    background-color: #F6DFF4;
+    padding: 20px;
+    height: 100vh;
+}
+
+#section4 h1 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.carousel {
+    max-width: 400px;
+    margin: 40px auto;
+    position: relative;
+    overflow: hidden;
+    padding: 20px 0;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    background: linear-gradient(90deg, #6a11cb 0%, #85259b 100%);
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.5s ease;
+    gap: 50px;
+    justify-content: space-evenly;
+    padding: 0 50px;
+}
+
+.slides img {
+  width: 300px;
+  height: 500px;
+  flex-shrink: 0;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.2);
+    color: white;
+    border: none;
+    font-size: 24px;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.arrow.left {
+    left: 10px;
+}
+
+.arrow.right {
+    right: 10px;
+}
+
+.arrow:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.counter {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
 
 
 /* 5. vinicius -> Feedback dos usuários + perguntas frequentes + chamada ação */

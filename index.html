@@ -4,6 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
     <title>Taskify</title>
     <link rel="stylesheet" href="style.css" />
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
@@ -18,7 +20,21 @@
 
     <!--<section>Benefícios</section>-->
 
-    <!--<section>Vídeos</section>-->
+    <section id="section4">
+        <h1>PASSO A PASSO</h1>
+        <div class="carousel">
+            <button class="arrow left" onclick="prev()">&#10094;</button>
+            <div class="slides" id="slides">
+                <img src="assets/print1.jpg" alt="1">
+                <img src="assets/print1.jpg" alt="2">
+                <img src="assets/print1.jpg" alt="3">
+                <img src="assets/print1.jpg" alt="4">
+                <img src="assets/print1.jpg" alt="5">
+            </div>
+            <button class="arrow right" onclick="next()">&#10095;</button>
+            <div class="counter" id="counter">Imagem 1 de 5</div>
+        </div>
+    </section>
 
     <!--<section>passo a passo com fotos</section>-->
 
