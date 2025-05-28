@@ -175,7 +175,7 @@
 
 .lista_li {
   background-color: white;
-  color: hsl(0, 0%, 0%);
+  color: black;
   margin-bottom: 40px;
   padding: 15px 20px;
   border-radius: 12px;
@@ -186,4 +186,57 @@
 
 .lista_li:hover {
   background-color: #edc3ff;
+}
+
+/*chamada ação*/
+
+.chamada{
+  background-color: #D2ACD7;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  padding: 60px 20px;
+  border-radius: 30px;
+  max-width: 850px;
+  margin: 60px auto;
+  margin-top: 100px;
+}
+
+.titulo3 {
+   font-size: 2rem;
+   font-weight: bold;
+   margin-bottom: 45px;
+}
+
+.frases{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.frase{
+  background-color: #ffffff;
+  margin: 0 auto 30px;
+  width: 500px;
+  color: black;
+  margin-bottom: 30px;
+  padding: 15px 20px;
+  border-radius: 12px;
+  font-weight: bold;
+  font-size: 1.5rem;
+  box-shadow: 0 20px 10px #57006D;
+}
+
+.clicavel{
+  background-color: #734281;
+  border-radius: 40px;
+  color: white;
+  font-size: 1.5rem;
+  padding: 14px 40px;
+}
+
+.clicavel:hover {
+  background-color: #edc3ff;
+  color: black;
 }
